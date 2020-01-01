@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="slider" class="slider">
+        <div class="slider-wrapper">
+            <div class="slide">
+                <img src="http://lorempixel.com/960/300/business" alt="" />
+                <div class="caption">
+                    <h2>coso</h2>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="http://lorempixel.com/960/300/animals" alt="" />
+                <div class="caption">
+                    <h2>fgreg</h2>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="http://lorempixel.com/960/300/food" alt="" />
+                <div class="caption">
+                    <h2>dw</h2>
+                </div>
+            </div>
+            
+        </div>
+        <div class="slider-nav">
+            <a  data-slide="1"></a>
+            <a  data-slide="2"></a>
+            <a  data-slide="3"></a>
+        </div>
+    </div>
+
+    <script src="./slider.js"></script>
+    <script>
+    
+var slider;
+document.addEventListener("DOMContentLoaded", function () {
+    slider= new Slider("#slider",3000);// selector of slider , time in millisecond
+    //slider.prev()
+    //slider.next()
+    //slider.resStop()
+});
+
+    </script>
+</body>
+</html>
