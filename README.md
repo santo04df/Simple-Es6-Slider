@@ -10,3 +10,5 @@ For next slide name.next();
 For precendent slide name.prev();
 
 For stop or resume the slider name.resStop();
+
+You can try it on https://codepen.io/Mrcreaper04/pen/xxbXzGP 
